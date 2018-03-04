@@ -69,15 +69,16 @@ li {
   display: flex;
 }
 .blogleft{
-  width: 89%;
-  padding-top: 20px;
-  font-size: 17px;
-}
-.blogright{
-  padding-top: 20px;
+  width: 32%;
+  float: left;
 }
 .image-content{
-  width: 64%;
-  float: right;
+  width: 37%;
+  float: left;
+  margin-left: 2%;
 }
-
+.blogright{
+  width: 26%;
+  float: right;
+  padding-left: 80px;
+}
