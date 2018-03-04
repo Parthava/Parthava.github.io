@@ -66,21 +66,18 @@ li {
 /******** Menu ends *********/ 
 /******** Content of the webpage starts **********/
 .content-area {
-	display: flex;
+  display: flex;
 }
 .blogleft{
-	width: 39%;
-	padding-top: 20px;
-	font-size: 17px;
+  width: 89%;
+  padding-top: 20px;
+  font-size: 17px;
 }
 .blogright{
-	padding-top: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
 }
 .image-content{
-	width: 62%;
-  padding-top: 20px;
-  padding-right: 48px;
-	float: right;
+  width: 64%;
+  float: right;
 }
 
