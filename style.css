@@ -69,7 +69,7 @@ li {
   display: flex;
 }
 .blogleft{
-  width: 43%;
+  width: 53%;
   float: left;
 }
 .image-content{
@@ -78,7 +78,7 @@ li {
   margin-left: 2%;
 }
 .blogright{
-  width: 26%;
+  width: 16%;
   float: right;
   padding-left: 80px;
 }
