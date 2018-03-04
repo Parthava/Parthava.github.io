@@ -1,0 +1,83 @@
+/******* Heading of the css starts ********/
+body {
+	width: 60%;
+	margin: 0 auto;
+}
+.header{
+  background-image: url(header-image-02.jpg);
+  background-repeat: no-repeat;
+  padding: 70px 0px 70px 40px;
+}
+.header-area{
+	padding-left: 280px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+/******** Heading of the css ends ********/
+
+/******** Menu starts ********/
+.menu-area{
+	width: 40%;
+}
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+#l1 a {
+  outline: none;
+  text-decoration: none;
+  display: inline;
+  border: 1px solid green;
+  padding: 5px 10px;
+  margin-bottom: 11px;
+  width: 29.5%;
+  margin-right: 4.625%;
+  text-align: center;
+  line-height: 2;
+  color: black;
+}
+
+#l1 a:link, a:visited, a:focus {
+  background: white;
+  color: green;
+  border: 1px solid green;  
+}
+
+#l1 a:hover {     
+  background: green;
+  color: white;
+  border: 1px solid green;
+}
+
+#l1 a:active {
+  background: red;
+  color: white;
+  border: 1px solid green;
+}
+
+#l1 li:last-child a {
+  margin-right: 0;
+}
+/******** Menu ends *********/ 
+/******** Content of the webpage starts **********/
+.content-area {
+	display: flex;
+}
+.blogleft{
+	width: 89%;
+	padding-top: 20px;
+	font-size: 17px;
+}
+.blogright{
+	padding-top: 20px;
+}
+.image-content{
+	width: 64%;
+	float: right;
+}
+

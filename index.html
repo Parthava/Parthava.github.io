@@ -1,58 +1,45 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<html>
   <head>
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
-  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-  <!-- header start -->
-  
-<!-- navbar start -->
+  <!-- Heading starts -->
   <div class="header">
-    Hrishikesh Barman
+  <div class="header-area">Heading of the blog</div>
   </div>
-<!-- navbar end -->
-  
-<!-- header end -->
-
-<!-- main content start -->
-<div class="content-area">
-  <div class="blogroll">
-      <div class="blogroll-header">
-        <h3></h3>
-      </div>
-      <div class="blogroll-content">
-      <div class="blog-post-list-item"> I am the title of the blog </div>
-        <div class="blog-post-list-item"> I am the title of the blog </div>
-        <div class="blog-post-list-item"> I am the title of the blog </div>
-        <div class="blog-post-list-item"> I am the title of the blog </div>
-      </div>
-    </div> 
-    <div class="sidebar">
-      <div class="sidebar-item"><h4>Hey</h4></div>
-      <div class="sidebar-item">
-        <span>Photoes</span>
-      </div>
-      <div class="sidebar-item"></div>
+  <!-- Heading ends -->
+  <!-- Menu starts -->
+  	<div class="menu-area">
+  		<div id="l1"><ul type="none">
+  			<li><a href="#">Home</a></li><li><a href="#">Blog</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li>
+			</ul>
+      <div>
+        
+          <label for="theme">Select theme: </label>
+          <select id="theme">
+            <option value="white">White</option>
+            <option value="black">Black</option>
+          </select>
+          <script src="theme.js"></script>
     </div>
-  </div>
+		</div>
+	</div>
+	<div><hr color="green" width="80%"" align="left"></div>
+	<div class="content-area">
+		<div class="blogleft">
+			<div>
+				<img src="Bob.jpg" width="250" height="190" alt="Parthava Borah"/>
+				<div class="image-content">Hello everyone! myself Parthava Borah, a student of Computer Science Engineering. My hobbies includes coding and sleeping which I do a lot whenever I get any extra time ;)<br/><br/>This is my personal blog and I will share basic things of Computer Science such as Introduction to computer languages, Open Source etc.</div>
+			</div>
+		</div>
+		<div class="blogright">
+			<div>Column-03</div>
+		</div>
+	</div>
 
-<!-- main content end -->
-  
-<!-- footer start -->
-<!-- footer end -->
-
-
-
-
-
-
-
+	<!-- Menu ends -->
   </body>
-</html>
+  </html>
