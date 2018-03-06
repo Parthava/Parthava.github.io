@@ -1,12 +1,13 @@
 /******* Heading of the css starts ********/
 body {
 	width: 60%;
-	margin: 0 auto;
+	margin: 0px auto;
 }
 .header{
   background-image: url(header-image-02.jpg);
   background-repeat: no-repeat;
-  padding: 70px 0px 70px 40px;
+  padding: 70px 10px 50px 40px;
+  margin-top: -10px !important;
 }
 .header-area{
 	padding-left: 280px;
@@ -69,11 +70,11 @@ li {
   display: flex;
 }
 .blogleft{
-  width: 35%;
+  width: 40%;
   float: left;
 }
 .image-content{
-  width: 37%;
+  width: 53%;
   float: left;
   margin-left: 4%;
 }
