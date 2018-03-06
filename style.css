@@ -83,3 +83,24 @@ li {
   float: right;
   padding-left: 80px;
 }*/
+.contri{
+    color: blue;
+    padding-top: 28px;
+    font-size: 2em;
+    line-height: 28%;
+}
+.inside-contri{
+  font-size: 18px;
+  color: black;
+}
+#l2 a {
+  outline: none;
+  text-decoration: none;
+}
+#l2 a:link, a:visited, a:focus {
+  background: white;
+}
+#l2 a:hover
+{
+  background: yellow;
+}
