@@ -85,13 +85,9 @@ li {
 }*/
 .contri{
     color: blue;
-    padding-top: 28px;
+    padding-top: 48px;
     font-size: 2em;
     line-height: 28%;
-}
-.inside-contri{
-  
-  color: black;
 }
 #l2 a {
   outline: none;
