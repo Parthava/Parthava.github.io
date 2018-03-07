@@ -4,20 +4,6 @@ body {
 	margin: 0px auto;
 }
 
-body
-{
-       font-size: 22px; 
-}
-
-@media (min-width: 768)
-{
-       body
-       {
-           font-size: 17px; 
-       }
-}
-
-
 .header{
   background-image: url(header-image-02.jpg);
   background-repeat: no-repeat;
