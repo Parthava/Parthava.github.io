@@ -96,7 +96,7 @@ li {
 }
 .inside-contri{
   padding-top: -13px;
-  
+  font-size: 15px !important;
 }
 #l2 a {
   outline: none;
