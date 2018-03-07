@@ -88,7 +88,7 @@ li {
   padding-top: 20px;
 
 }
-/*.contri-heading{
+.contri-heading{
     color: blue;
     padding-top: 10px; 
     font-size: 20px;
@@ -96,6 +96,7 @@ li {
 }
 .inside-contri{
   padding-top: -13px;
+  font-size: 15px !important;
 }
 #l2 a {
   outline: none;
@@ -107,4 +108,4 @@ li {
 #l2 a:hover
 {
   background: yellow;
-}*/
+}
