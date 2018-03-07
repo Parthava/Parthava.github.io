@@ -96,7 +96,12 @@ li {
 }
 .inside-contri{
   padding-top: -13px;
-  font-size: calc(0.53em + 1vmin);
+ }
+@media (min-width: 468){
+  .inside-contri{
+  padding-top: -13px;
+  font-size: 13px;
+ }
 }
 #l2 a {
   outline: none;
