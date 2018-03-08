@@ -1,7 +1,7 @@
 /******* Heading of the css starts ********/
 body {
-  width: 60%;
-  margin: 0px auto;
+	width: 60%;
+	margin: 0px auto;
 }
 
 @media only screen and (max-width: 320px) {
@@ -11,7 +11,6 @@ body {
    }
 
 }
-
 .header{
   background-image: url(header-image-02.jpg);
   background-repeat: no-repeat;
@@ -19,15 +18,15 @@ body {
   margin-top: -10px !important;
 }
 .header-area{
-  padding-left: 280px;
-  padding-top: 20px;
-  font-size: 20px;
+	padding-left: 280px;
+	padding-top: 20px;
+	font-size: 20px;
 }
 /******** Heading of the css ends ********/
 
 /******** Menu starts ********/
 .menu-area{
-  width: 40%;
+	width: 40%;
 }
 ul {
   padding: 0;
@@ -97,12 +96,12 @@ li {
   padding-top: 20px;
 
 }
-.contri-heading{
+/*.contri-heading{
     color: blue;
     padding-top: 10px; 
     font-size: 20px;
     
-}
+}*/
 .inside-contri{
   padding-top: -13px;
 
@@ -118,4 +117,7 @@ li {
 #l2 a:hover
 {
   background: yellow;
+}
+.about-html{
+  padding-top: 8px;
 }
