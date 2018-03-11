@@ -121,4 +121,16 @@ li {
 .about-html{
   padding-top: 13px;
 }
-
+/* ---------------------------------------------------- */
+.footer{
+  background-image: url(header-image-02.jpg);
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  margin-bottom: -10px !important; 
+}
+.footer-area{
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  color: black;
+}
