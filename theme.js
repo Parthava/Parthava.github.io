@@ -17,7 +17,7 @@ function update(bgColor, textColor, heading,img,img2) {
 select.onchange = function() 
 {
   if( select.value === 'black' )
-  	update('black','white','black','url(header-image.jpg)','url(header-image.jpg)'); 
+    update('black','white','black','url(header-image.jpg)','url(header-image.jpg)'); 
   else
-  	update('white','black','black','url(header-image-02.jpg)','url(header-image-02.jpg)');
+    update('white','black','black','url(header-image-02.jpg)','url(header-image-02.jpg)');
 }
